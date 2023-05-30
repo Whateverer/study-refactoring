@@ -172,6 +172,10 @@ Remove Flag Argument
   - bookConcert(customer), premiumBookConcert(customer)
 - 조건문 분해하기 (Decompose Condition)를 활용할 수 있다.
 
+## 리팩토링16. 여러 함수를 클래스로 묶기
+Combine Functions into Class
+- 비슷한 매개변수 목록을 여러 함수에서 사용하고 있다면 해당 메소드를 모아서 클래스를 만들 수 있다.
+- 클래스 내부로 메소드를 옮기고, 데이터를 필드로 만들면 메소드에 전달해야 하는 매개변수 목록도 줄일 수 있다.
 
 # 섹션5. 전역 데이터
 # 섹션6. 가변 데이터
