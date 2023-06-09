@@ -247,6 +247,14 @@ Combine Functions into Transform
 - 소스 데이터가 변경될 수 있는 경우에는 "여러 함수를 클래스로 묶기(Combine Functions into Class)"를 사용하는 것이 적절하다.
 - 소스 데이터가 변경되지 않는 경우에는 두 가지 방법을 모두 사용할 수 있지만, 변환 함수를 사용해서 불변 데이터의 필드로 생성해 두고 재사용할 수도 있다.
 
+## 리팩토링23. 참조를 값으로 바꾸기
+Change Reference to Value
+- 레퍼런스 (Reference) 객체 vs 값 (Value) 객체
+  - https://martinfowler.com/bliki/ValueObject.html
+  - "Objects that are equal due to the value of their properties, in this case thier x and y coordinates, are called value objects."
+  - 값 객체는 객체가 가진 필드의 값으로 동일성을 확인한다.
+  - 값 객체는 변하지 않는다.
+  - 어떤 객체의 변경 내역을 다른 곳으로 전파시키고 싶다면 레퍼런스, 아니면 값 객체를 사용한다.
 
 # 섹션7. 뒤엉킨 변경
 # 섹션8. 산탄총 수술
