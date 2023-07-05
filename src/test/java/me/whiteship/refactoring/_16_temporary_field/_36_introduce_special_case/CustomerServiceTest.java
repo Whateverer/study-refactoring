@@ -34,7 +34,4 @@ class CustomerServiceTest {
 
         assertEquals(0, customerService.weeksDelinquent(new Site(unknown)));
     }
-
-
-
 }
