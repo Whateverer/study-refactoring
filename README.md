@@ -627,3 +627,15 @@ Introduce Assertion
 - 여러 함수를 변환 함수로 묶기 (Combine Functions into Transform)
 - 단계 쪼개기 (Split Phase)
 
+## 카탈로그2. 캡슐화
+모듈에서 외부 시스템으로 공개하지 않아도 되는 데이터를 숨기는 기술
+- 레코드 캡슐화하기 (Encapsulate Record) 
+- **컬렉션 캡슐화하기 (Encapsulate Collection)**
+- 기본형을 객체로 바꾸기 (Replace Primitive with Object)
+- 임시 변수를 질의 함수로 바꾸기 (Replace Temp with Query)
+- 클래스 추출하기 (Extract Class)
+- 클래스 인라인하기 (Inline Class)
+- 위임 숨기기 (Hide Delegate)
+- 중재자 제거하기 (Remove Middle Man)
+- **알고리듬 교체하기 (Substitute Algorithm)**
+
