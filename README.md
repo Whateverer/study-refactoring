@@ -694,3 +694,12 @@ Introduce Assertion
 - 계층 합치기 (Collapse Hierarchy)
 - 서브클래스를 위임으로 바꾸기 (Replace Subclass with Delegate)
 - 슈퍼클래스를 위임으로 바꾸기 (Replace Superclass with Delegate)
+
+## 리팩토링 참고자료
+- 서적
+  - 리팩터링 2판 (리팩토링 개정판)
+  - 패턴을 활용한 리팩터링
+  - GoF의 디자인 패턴
+- 웹 사이트
+  - https://refactoring.com/catalog
+  - https://wiki.c2.com/?WikiPagesAboutRefactoring
